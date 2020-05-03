@@ -1,17 +1,39 @@
 {
-  "name": "proxyName",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Sai Saran",
-  "license": "ISC",
-  "dependencies": {
-    "apigeelint": "^0.1.8"
-  }
+
+"name": "mocha_scripts",
+
+"version": "1.0.0",
+
+"description": "",
+
+"main": "index.js",
+
+"directories": {
+
+"test": "test"
+
+},
+
+"scripts": {
+
+"test": "echo \"Error: no test specified\" && exit 1"
+
+},
+
+"author": "",
+
+"license": "ISC",
+
+"devDependencies": {
+
+"chai": "^2.3.0",
+
+"request": "^2.55.0",
+
+"sinon": "^1.14.1",
+
+"sinon-chai": "^2.7.0"
+
+}
+
 }
