@@ -1,4 +1,4 @@
-# apigee-example
+# apigee-codeCoverage-mochaTesting-Deployment
 Sample project showing how to organize Apigee policy configuration and limit duplication
 
 This project contains two proxies which share some common policies:
