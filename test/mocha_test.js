@@ -1,4 +1,4 @@
-//const assert = require('chai').aasert;
+var app = require('./app.js');
 var assert = require('chai').assert
 
 describe('Field test for killer robot', function(){
@@ -9,5 +9,8 @@ describe('Field test for killer robot', function(){
 	});
 	it('check that cum is string',function(){
 		assert.isString(cum, 'IT IS STRING');
+	});
+	it('app should return hello',function(){
+		assert.equal(app(),'hello');
 	});
 });
