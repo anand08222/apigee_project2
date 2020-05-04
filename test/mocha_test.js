@@ -1,13 +1,13 @@
-const assert = require('chai').aasert;
+//const assert = require('chai').aasert;
+var expect = chai.expect;
 
 describe('Field test for killer robot', function(){
-	
-	let num = 6;
-	let cum = 'dsjvhwshvehw';
-	it('Check that num is numeric',function(){
-		assert.isNumber(num,'IT IS NUMBER');
-	});
-	it('check that cum is string',function(){
-		assert.isString(cum, 'IT IS STRING');
-	});
+it('1 addition of 2 numbers', function() {
+    expect(add(1, 1)).to.be.equal(2);
+  });
+
+  it('1 addition of 0 numbers', function() {
+    expect(add(1, 0)).to.be.equal(1);
+    expect(add(0, 0)).to.be.equal(0);
+  });
 });
