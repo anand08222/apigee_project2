@@ -14,7 +14,7 @@
 
 "scripts": {
 
-"test": "nyc mocha  --timeout  100000 || true"
+"test": "nyc --reporter=html --reporter=text mocha"
 
 },
 
