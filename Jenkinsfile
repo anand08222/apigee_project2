@@ -21,7 +21,7 @@ pipeline{
             steps{
                 sh 'npm install'
             //    sh 'npm i --save-dev nyc'
-                sh 'npm test'
+            //    sh 'npm test'
                 sh 'npm run coverage'
             //    sh 'npm test test/mocha_test/*.js'
             }
