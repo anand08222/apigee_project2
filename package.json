@@ -14,7 +14,7 @@
 
 "scripts": {
 
-"test": "nyc --reporter=html --reporter=text mocha --exit"
+"test": "nyc --reporter=html --reporter=text mocha"
 
 },
 
